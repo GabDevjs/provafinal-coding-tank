@@ -12,12 +12,12 @@ public class Main {
         double[] descontoImpostoRenda;
         double[] valorsTotaisDoDesconto;
 
-        System.out.println("########## Calculo de salario ########## %n");
+        System.out.println("########## Calculo de salario ##########");
 
         salariosBrutos = new double[MAX_FUNCIONARIOS];
         salariosBrutos = setSalariosBrutos(input, MAX_FUNCIONARIOS);
 
-        System.out.println("%n ############### %n");
+        System.out.println("###############");
 
         descontoINSS = new double[MAX_FUNCIONARIOS];
         descontoImpostoRenda = new double[MAX_FUNCIONARIOS];
